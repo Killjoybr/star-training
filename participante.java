@@ -1,36 +1,14 @@
-public class participante {
-    public String nome;
-    public int idade;
-    public String cpf;
+public class Participante extends Usuario{
+    private String pagamento; 
 
-    public participante(String nome, int idade, String cpf) {
-        this.nome = nome;
-        this.idade = idade;
-        this.cpf = cpf;
+    public Participante(String nome, int idade, String cpf, String pagamento) {
+        super(nome, idade, cpf);
+        this.pagamento = pagamento;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
     
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
 
-    public String getCpf() {
-        return cpf;
+    public String getPagamento() {
+        return pagamento;
     }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
 }
