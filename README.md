@@ -10,7 +10,7 @@ Este projeto tem como objetivo ensinar como colaborar no GitHub. Ele serve como 
 4. Faça as alterações desejadas no código.
 5. Faça commit das suas alterações.
 6. Envie um pull request para este repositório.
-7. Aguarde a revisão e a aprovação do seu pull request.
+7. Aguarde a revisão e a aprovação do seu pull request.,
 8. Parabéns! Você contribuiu com sucesso para este projeto.
 
 ## Recursos adicionais
